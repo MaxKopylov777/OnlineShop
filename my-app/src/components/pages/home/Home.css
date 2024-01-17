@@ -1,0 +1,16 @@
+.Home-container {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center; 
+}
+
+ .Product-container {
+    background-color:silver;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 

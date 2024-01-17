@@ -1,0 +1,33 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Basket {
+    margin: 10px;
+    font-size: 20px;
+    
+}
+
+.Main-btn {
+    height: 40px;
+    margin: 10px;
+    background-color:cadetblue;
+    font-size: 20px;
+    color:#fff;
+    border: none;
+    border-radius:10px;
+    padding: 10px;
+}
+.Title-shop {
+    text-decoration: none;
+    color:blue;
+}
+
+.Input-search {
+    width: 250px;
+    padding: 5px;
+    color: darkslategray;
+    font-size: 20px;
+    margin: 10px ;
+}

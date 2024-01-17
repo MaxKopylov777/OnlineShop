@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "module": "system",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "outDir": "dist",
+        "rootDir": "./src",
+        "sourceMap": true,
+        "lib": ["ES6","DOM","ES7"],
+        "target": "ES5",
+        "paths": {
+            "react": [ "./node_modules/@types/react" ]
+            },
+
+        "typeRoots": ["src/types"],
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
